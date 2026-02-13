@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:adms="http://www.w3.org/ns/adms#" 
+    xmlns:dc="http://purl.org/dc/elements/1.1/" 
+    xmlns:dcterms="http://purl.org/dc/terms/" 
+    xmlns:edm="http://www.europeana.eu/schemas/edm/" 
+    xmlns:odrl="http://www.w3.org/ns/odrl/2/" 
+    xmlns:ore="http://www.openarchives.org/ore/terms/" 
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" 
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" 
+    xmlns:schema="https://schema.org/" 
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#" 
+    xmlns:svcs="http://rdfs.org/sioc/services#"
+    >
+
+    <edm:ProvidedCHO rdf:about="#TEST_3D_EMBED_WITH_MODEL">
+        <dc:title xml:lang="en">TEST RECORD: 3D Embedded Object and Model</dc:title>
+        <dc:description xml:lang="en">This is a sample record for a 3D object, presented through an embeddable viewer and including a downloadable model referenced in the metadata. The model is further described by its title, description, and temporal coverage, and includes information about its intended use and source.</dc:description>
+        <dc:creator xml:lang="en">Europeana Data Services Team</dc:creator>
+        <dcterms:isPartOf xml:lang="en">Example Dataset</dcterms:isPartOf>
+        <dcterms:conformsTo xml:lang="en">Partially supported (under development)</dcterms:conformsTo>
+        <edm:rights rdf:resource="http://creativecommons.org/licenses/by-sa/4.0/"/>
+        <dc:subject rdf:resource="http://data.europeana.eu/concept/156"/>
+        <dcterms:spatial rdf:resource="http://www.wikidata.org/entity/Q4970"/>
+        <dcterms:created>2023</dcterms:created>
+        <edm:type>3D</edm:type>
+    </edm:ProvidedCHO>
+    
+    <ore:Aggregation rdf:about="#Aggregation">
+        <edm:aggregatedCHO rdf:resource="#TEST_3D_EMBED_WITH_MODEL"/>
+        <edm:dataProvider>Europeana Foundation</edm:dataProvider>
+        <edm:provider>Europeana Foundation</edm:provider>
+        <edm:isShownAt rdf:resource="https://www.morphosource.org/concern/media/000594298?locale=en"/>
+        <edm:object rdf:resource="https://www.morphosource.org/downloads/000594299?file=thumbnail"/>
+        <edm:isShownBy rdf:resource="https://sketchfab.com/oembed?url=https%3A%2F%2Fsketchfab.com%2F3d-models%2Fpsittacosaurus-lujiatunensis-586e4c647d174527aae8d35f0ca47381&amp;format=json"/>
+        <edm:hasView rdf:resource="https://raw.githubusercontent.com/IIIF/3d/main/assets/whale/whale_cranium.glb"/>
+        <edm:rights rdf:resource="http://creativecommons.org/licenses/by-sa/4.0/"/>
+    </ore:Aggregation>
+
+    <edm:WebResource rdf:about="https://sketchfab.com/oembed?url=https%3A%2F%2Fsketchfab.com%2F3d-models%2Fpsittacosaurus-lujiatunensis-586e4c647d174527aae8d35f0ca47381&amp;format=json">
+        <edm:rights rdf:resource="http://creativecommons.org/licenses/by-sa/4.0/"/>
+        <svcs:has_service rdf:resource="https://sketchfab.com/oembed"/>
+        <edm:intendedUsage rdf:resource="http://data.europeana.eu/vocabulary/usageArea/Research"/>
+        <dcterms:isFormatOf rdf:resource="https://raw.githubusercontent.com/IIIF/3d/main/assets/whale/whale_cranium.glb"/>
+        <schema:digitalSourceType rdf:resource="https://cv.iptc.org/newscodes/digitalsourcetype/digitalCapture"/>
+        <dcterms:created>2022</dcterms:created>  
+    </edm:WebResource>
+
+    <edm:WebResource rdf:about="https://raw.githubusercontent.com/IIIF/3d/main/assets/whale/whale_cranium.glb">
+        <dc:title xml:lang="en">3D Model of the object suitable for display</dc:title>
+        <dc:creator xml:lang="en">John Doe</dc:creator>
+        <dc:description xml:lang="en">The complete cranium and mandibles of Psittacosaurus houi</dc:description>
+        <dcterms:temporal>09-2025</dcterms:temporal>
+        <edm:rights rdf:resource="http://creativecommons.org/licenses/by-sa/4.0/"/>        
+        <edm:intendedUsage rdf:resource="http://data.europeana.eu/vocabulary/usageArea/Research"/>
+        <dc:type rdf:resource="http://data.europeana.eu/vocabulary/modelType/3DMesh"/>
+        <edm:polygonCount>316646</edm:polygonCount>
+        <edm:vertexCount>1578</edm:vertexCount>
+        <schema:digitalSourceType rdf:resource="https://cv.iptc.org/newscodes/digitalsourcetype/digitalCapture"/>
+     </edm:WebResource>
+
+    <svcs:Service rdf:about="https://sketchfab.com/oembed">
+        <dcterms:conformsTo rdf:resource="https://oembed.com/"/>
+        <rdfs:label xml:lang="en">Sketchfab</rdfs:label>
+    </svcs:Service>
+
+</rdf:RDF>
