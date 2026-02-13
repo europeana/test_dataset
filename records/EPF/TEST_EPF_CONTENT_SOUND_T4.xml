@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <rdf:RDF
     xmlns:dc="http://purl.org/dc/elements/1.1/" 
     xmlns:dcterms="http://purl.org/dc/terms/" 
@@ -12,28 +13,26 @@
     xmlns:wgs84="http://www.w3.org/2003/01/geo/wgs84_pos#" 
     >
 
-    <edm:ProvidedCHO rdf:about="#TEST_EPF_CONTENT_IMAGE_T2">
-        <dc:title xml:lang="en">TEST RECORD: EPF Content Tier 2 Image Object</dc:title>
-        <dc:description xml:lang="en">This is a sample image record classified as EPF Content Tier 2.</dc:description>
+    <edm:ProvidedCHO rdf:about="#TEST_EPF_CONTENT_SOUND_T4">
+        <dc:title xml:lang="en">TEST RECORD: EPF Content Tier 4 Sound Object</dc:title>
+        <dc:description xml:lang="en">This is a sample sound record classified as EPF Content Tier 4.</dc:description>
         <dc:creator xml:lang="en">Europeana Data Services Team</dc:creator>
         <dcterms:isPartOf xml:lang="en">Example Dataset</dcterms:isPartOf>
         <dcterms:conformsTo xml:lang="en">Supported</dcterms:conformsTo>
-        <dc:subject rdf:resource="http://vocab.getty.edu/aat/300020103"/>
-        <dc:type rdf:resource="http://vocab.getty.edu/aat/300430220"/>
-        <dc:format rdf:resource="http://www.wikidata.org/entity/Q11633"/>
-        <edm:currentLocation rdf:resource="http://www.wikidata.org/entity/Q4093"/>
-        <edm:type>IMAGE</edm:type>
-        <dc:language>deu</dc:language>
+        <dc:type rdf:resource="http://vocab.getty.edu/aat/300026657"/>
+        <dc:format rdf:resource="http://vocab.getty.edu/aat/300200529"/>
+        <dc:subject>European Culture and politics</dc:subject>
+        <edm:type>SOUND</edm:type>
+        <dc:language>de</dc:language>
         <dcterms:created>1951</dcterms:created>
     </edm:ProvidedCHO>
 
     <ore:Aggregation rdf:about="#Aggregation">
-        <edm:aggregatedCHO rdf:resource="#TEST_EPF_CONTENT_IMAGE_T2"/>
-        <edm:isShownBy rdf:resource="http://media.culturegrid.org.uk/mediaLibrary/Partage/LoveArtNouveau/Glasgow/DSCF4092.JPG"/>
+        <edm:aggregatedCHO rdf:resource="#TEST_EPF_CONTENT_SOUND_T4"/>
+        <edm:isShownBy rdf:resource="http://www.soundsofchanges.eu/soundfiles/5d5/5d540916d0396.mp3"/>
         <edm:dataProvider>Europeana Foundation</edm:dataProvider>
-        <edm:provider>Europeana Foundation</edm:provider> 
-        <edm:rights rdf:resource="http://rightsstatements.org/vocab/InC/1.0/"/>
+        <edm:provider>Europeana Foundation</edm:provider>
+        <edm:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/"/>
     </ore:Aggregation>
 
 </rdf:RDF>
-

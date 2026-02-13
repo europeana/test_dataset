@@ -14,7 +14,7 @@
     >
 
     <edm:ProvidedCHO rdf:about="#TEST_EPF_CONTENT_IMAGE_T1">
-        <dc:title xml:lang="en">TEST RECORD: EPF Content Tier 1</dc:title>
+        <dc:title xml:lang="en">TEST RECORD: EPF Content Tier 1 Image Object</dc:title>
         <dc:description xml:lang="en">This is a sample image record classified as EPF Content Tier 1.</dc:description>
         <dc:creator xml:lang="en">Europeana Data Services Team</dc:creator>
         <dcterms:isPartOf xml:lang="en">Example Dataset</dcterms:isPartOf>
