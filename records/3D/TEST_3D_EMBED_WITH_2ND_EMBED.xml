@@ -13,7 +13,7 @@
     >
 
     <edm:ProvidedCHO rdf:about="#TEST_3D_EMBED_WITH_2ND_EMBED">
-        <dc:title xml:lang="en">TEST RECORD: 3D Embedded Object</dc:title>
+        <dc:title xml:lang="en">TEST RECORD: Two embedded views of a 3D Object</dc:title>
         <dc:description xml:lang="en">This is a sample record for a 3D object, presented through an embeddable viewer. It contains information about the intended use and source of the model.</dc:description>
         <dc:creator xml:lang="en">Europeana Data Services Team</dc:creator>
         <dcterms:isPartOf xml:lang="en">Example Dataset</dcterms:isPartOf>

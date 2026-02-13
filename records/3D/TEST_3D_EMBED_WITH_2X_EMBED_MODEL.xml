@@ -13,8 +13,8 @@
     >
 
     <edm:ProvidedCHO rdf:about="#TEST_3D_EMBED_WITH_2X_EMBED_MODEL">
-        <dc:title xml:lang="en">TEST RECORD: 3D Embedded Object</dc:title>
-        <dc:description xml:lang="en">This is a sample record for a 3D object, presented through an embeddable viewer. It contains information about the intended use and source of the model.</dc:description>
+        <dc:title xml:lang="en">TEST RECORD: Two embedded views and models of a 3D object</dc:title>
+        <dc:description xml:lang="en">This is a sample record for a 3D object, presented through 2 complementary embeddable views of the same object. A 3D model is made available for download in the metadata for each embeddable view. It also contains information about the intended use and source of the model.</dc:description>
         <dc:creator xml:lang="en">Europeana Data Services Team</dc:creator>
         <dcterms:isPartOf xml:lang="en">Example Dataset</dcterms:isPartOf>
         <dcterms:conformsTo xml:lang="en">Partially supported (under development)</dcterms:conformsTo>
@@ -24,6 +24,7 @@
 		<dc:type rdf:resource="http://www.wikidata.org/entity/Q4989906"/>
         <dcterms:spatial rdf:resource="http://www.wikidata.org/entity/Q1044029"/>
 		<dc:subject rdf:resource="http://data.europeana.eu/concept/1853"/>
+        <dcterms:created>01-2026</dcterms:created>
         <edm:type>3D</edm:type>
     </edm:ProvidedCHO>
     
@@ -43,6 +44,7 @@
         <dc:title xml:lang="sk">3D model kostola - exteriér</dc:title>
         <dc:title xml:lang="en">3D model of the church - exterior</dc:title>
         <dcterms:created>2025</dcterms:created>
+        <dcterms:isFormatOf rdf:resource="https://raw.githubusercontent.com/europeana/test_dataset/main/public/models/church_outside_compressed.glb"/>
         <edm:rights rdf:resource="http://creativecommons.org/licenses/by-nc-sa/4.0/"/>
 		<edm:intendedUsage rdf:resource="http://data.europeana.eu/vocabulary/usageArea/Documentation"/>
         <schema:digitalSourceType rdf:resource="https://cv.iptc.org/newscodes/digitalsourcetype/digitalCapture"/>
@@ -53,37 +55,36 @@
         <dc:title xml:lang="sk">3D model Kostol - interiér</dc:title>
         <dc:title xml:lang="en">3D model Church - interior</dc:title>
         <dcterms:created>2025</dcterms:created>
+        <dcterms:isFormatOf rdf:resource="https://raw.githubusercontent.com/europeana/test_dataset/main/public/models/church_inside.glb"/>
         <edm:rights rdf:resource="http://creativecommons.org/licenses/by-nc-sa/4.0/"/>
 		<edm:intendedUsage rdf:resource="http://data.europeana.eu/vocabulary/usageArea/Documentation"/>
         <schema:digitalSourceType rdf:resource="https://cv.iptc.org/newscodes/digitalsourcetype/digitalCapture"/>
         <svcs:has_service rdf:resource="https://sketchfab.com/oembed"/>
     </edm:WebResource>
 
-    <edm:WebResource rdf:about="https://raw.githubusercontent.com/IIIF/3d/main/assets/whale/whale_cranium.glb">
-        <dc:title xml:lang="en">3D Model of the object suitable for display</dc:title>
-        <dc:creator xml:lang="en">John Doe</dc:creator>
-        <dc:description xml:lang="en">The complete cranium and mandibles of Psittacosaurus houi</dc:description>
-        <dcterms:temporal>09-2025</dcterms:temporal>
+    <edm:WebResource rdf:about="https://raw.githubusercontent.com/europeana/test_dataset/main/public/models/church_outside_compressed.glb">
+        <dc:title xml:lang="en">3D model of the outside view of the Church (GLB compressed version)</dc:title>
+        <dc:description xml:lang="en">The outside view of the Church</dc:description>
+        <dcterms:temporal>02-2026</dcterms:temporal>
         <edm:rights rdf:resource="http://creativecommons.org/licenses/by-sa/4.0/"/>        
         <edm:intendedUsage rdf:resource="http://data.europeana.eu/vocabulary/usageArea/Creativity"/>
         <dc:type rdf:resource="http://data.europeana.eu/vocabulary/modelType/3DMesh"/>
-        <edm:polygonCount>316646</edm:polygonCount>
-        <edm:vertexCount>1578</edm:vertexCount>
+        <edm:polygonCount>3999854</edm:polygonCount>
+        <edm:vertexCount>2448420</edm:vertexCount>
         <schema:digitalSourceType rdf:resource="https://cv.iptc.org/newscodes/digitalsourcetype/digitalCapture"/>
      </edm:WebResource>
 
-	<edm:WebResource rdf:about="https://zenodo.org/records/3464747/files/A09_L_Midfoot.stl">
-        <dc:title>High resolution 3D Model of the object</dc:title>
-        <dc:creator xml:lang="en">John Doe</dc:creator>
-        <dc:description xml:lang="en">The complete cranium and mandibles of Psittacosaurus houi; X-Ray Computed Tomography (CT/microCT) using Nikon XTH 320</dc:description>
+	<edm:WebResource rdf:about="https://raw.githubusercontent.com/europeana/test_dataset/main/public/models/church_inside.glb">
+        <dc:title xml:lang="en">3D model of the inside view of the Church (GLB complete version)</dc:title>
+        <dc:description xml:lang="en">The inside view of the Church showing the altar</dc:description>
         <dcterms:temporal>12-2023</dcterms:temporal>
         <edm:type>3D</edm:type>
-        <edm:rights rdf:resource="http://creativecommons.org/licenses/by-sa/4.0/"/>        
-        <edm:intendedUsage rdf:resource="http://data.europeana.eu/vocabulary/usageArea/Research"/>
+        <edm:rights rdf:resource="http://creativecommons.org/licenses/by-sa/4.0/"/>
+        <edm:intendedUsage rdf:resource="http://data.europeana.eu/vocabulary/usageArea/Documentation"/>
         <dc:type rdf:resource="http://data.europeana.eu/vocabulary/modelType/3DMesh"/>
-        <edm:polygonCount>31664697</edm:polygonCount>
-        <edm:vertexCount>15783024</edm:vertexCount> 
-        <schema:digitalSourceType rdf:resource="https://cv.iptc.org/newscodes/digitalsourcetype/digitalCapture"/>                 
+        <edm:polygonCount>2512228</edm:polygonCount>
+        <edm:vertexCount>1517930</edm:vertexCount> 
+        <schema:digitalSourceType rdf:resource="https://cv.iptc.org/newscodes/digitalsourcetype/digitalCapture"/>   
     </edm:WebResource>
 
     <svcs:Service rdf:about="https://sketchfab.com/oembed">
