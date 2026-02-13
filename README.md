@@ -20,11 +20,11 @@ The records included in the Europeana test dataset serve a dual purpose:
 ## planned use cases to be covered
 
 3D
-* A 3D object displayed using an existing embed service
-* A 3D object containing a 3D model alongside a embeddable view
-* A 3D object containing a 3D model with Paradata, alonside an embeddable view
-* A 3D object containing a 3D model and a 2D screenshot of the 3D object
-* A 3D object containing two 3D models encoded using different formats, alongside one only embeddable view.
+* ~~A 3D object displayed using an existing embed service~~
+* ~~A 3D object containing a 3D model alongside a embeddable view~~
+* ~~A 3D object containing a 3D model with Paradata, alonside an embeddable view~~
+* ~~A 3D object containing a 3D model and a 2D screenshot of the 3D object~~
+* ~~A 3D object containing two 3D models encoded using different formats, alongside one only embeddable view.~~
 * A 3D object containing two (alternative) embeddable views
 * A 3D object containing a 3D model and two (alternative) embeddable views where the model only represents one of the views
 * A 3D object containing two pairs of 3D model and embeddable view
