@@ -19,9 +19,11 @@
         <dcterms:isPartOf xml:lang="en">Example Dataset</dcterms:isPartOf>
         <dcterms:conformsTo xml:lang="en">Partially supported (under development)</dcterms:conformsTo>
         <edm:rights rdf:resource="http://creativecommons.org/licenses/by-sa/4.0/"/>
-        <dc:subject rdf:resource="http://data.europeana.eu/concept/156"/>
-        <dcterms:spatial rdf:resource="http://www.wikidata.org/entity/Q4970"/>
-        <dcterms:created>2023</dcterms:created>
+        <dcterms:created xml:lang="en">12th century</dcterms:created>
+        <dcterms:spatial rdf:resource="https://sws.geonames.org/3057568/"/>
+		<dc:type rdf:resource="http://www.wikidata.org/entity/Q4989906"/>
+        <dcterms:spatial rdf:resource="http://www.wikidata.org/entity/Q1044029"/>
+		<dc:subject rdf:resource="http://data.europeana.eu/concept/1853"/>
         <edm:type>3D</edm:type>
     </edm:ProvidedCHO>
     
@@ -29,18 +31,32 @@
         <edm:aggregatedCHO rdf:resource="#TEST_3D_EMBED_WITH_2ND_EMBED"/>
         <edm:dataProvider>Europeana Foundation</edm:dataProvider>
         <edm:provider>Europeana Foundation</edm:provider>
-        <edm:isShownAt rdf:resource="https://www.morphosource.org/concern/media/000594298?locale=en"/>
-        <edm:object rdf:resource="https://www.morphosource.org/downloads/000594299?file=thumbnail"/>
-        <edm:isShownBy rdf:resource="https://sketchfab.com/oembed?url=https%3A%2F%2Fsketchfab.com%2F3d-models%2Fpsittacosaurus-lujiatunensis-586e4c647d174527aae8d35f0ca47381&amp;format=json"/>
+        <edm:isShownAt rdf:resource="https://slovakiana.sk/kulturne-objekty/cair-ko4ql9i"/>
+        <edm:object rdf:resource="https://media.sketchfab.com/models/f6ec40a2d6754a6197c188194781f2c3/thumbnails/5eec7f1df11541fb82312b436681d021/daf45450e4da481ea1d8e2fb55832bf3.jpeg"/>
+        <edm:isShownBy rdf:resource="https://sketchfab.com/oembed?url=https%3A%2F%2Fsketchfab.com%2F3d-models%2Fvelky-kliz-kostol-sv-michala-archanjela-f6ec40a2d6754a6197c188194781f2c3&amp;format=json"/>
+        <edm:hasView rdf:resource="https://sketchfab.com/oembed?url=https%3A%2F%2Fsketchfab.com%2F3d-models%2Fvelky-kliz-interier-kostol-sv-michala-3d5f53ac99e24c9d9c55aefc83ab83af&amp;format=json"/>
         <edm:rights rdf:resource="http://creativecommons.org/licenses/by-sa/4.0/"/>
     </ore:Aggregation>
-    
-    <edm:WebResource rdf:about="https://sketchfab.com/oembed?url=https%3A%2F%2Fsketchfab.com%2F3d-models%2Fpsittacosaurus-lujiatunensis-586e4c647d174527aae8d35f0ca47381&amp;format=json">
-        <edm:rights rdf:resource="http://creativecommons.org/licenses/by-sa/4.0/"/>
-        <svcs:has_service rdf:resource="https://sketchfab.com/oembed"/>
-        <edm:intendedUsage rdf:resource="http://data.europeana.eu/vocabulary/usageArea/Research"/>
+
+    <edm:WebResource
+        rdf:about="https://sketchfab.com/oembed?url=https%3A%2F%2Fsketchfab.com%2F3d-models%2Fvelky-kliz-kostol-sv-michala-archanjela-f6ec40a2d6754a6197c188194781f2c3&amp;format=json">
+        <dc:title xml:lang="sk">3D model kostola - exteriér</dc:title>
+        <dc:title xml:lang="en">3D model of the church - exterior</dc:title>
+        <dcterms:created>2025</dcterms:created>
+        <edm:rights rdf:resource="http://creativecommons.org/licenses/by-nc-sa/4.0/"/>
+		<edm:intendedUsage rdf:resource="http://data.europeana.eu/vocabulary/usageArea/Documentation"/>
         <schema:digitalSourceType rdf:resource="https://cv.iptc.org/newscodes/digitalsourcetype/digitalCapture"/>
-        <dcterms:created>2022</dcterms:created>  
+        <svcs:has_service rdf:resource="https://sketchfab.com/oembed"/>
+    </edm:WebResource>
+
+	<edm:WebResource rdf:about="https://sketchfab.com/oembed?url=https%3A%2F%2Fsketchfab.com%2F3d-models%2Fvelky-kliz-interier-kostol-sv-michala-3d5f53ac99e24c9d9c55aefc83ab83af&amp;format=json">
+        <dc:title xml:lang="sk">3D model Kostol - interiér</dc:title>
+        <dc:title xml:lang="en">3D model Church - interior</dc:title>
+        <dcterms:created>2025</dcterms:created>
+        <edm:rights rdf:resource="http://creativecommons.org/licenses/by-nc-sa/4.0/"/>
+		<edm:intendedUsage rdf:resource="http://data.europeana.eu/vocabulary/usageArea/Documentation"/>
+        <schema:digitalSourceType rdf:resource="https://cv.iptc.org/newscodes/digitalsourcetype/digitalCapture"/>
+        <svcs:has_service rdf:resource="https://sketchfab.com/oembed"/>
     </edm:WebResource>
 
     <svcs:Service rdf:about="https://sketchfab.com/oembed">
