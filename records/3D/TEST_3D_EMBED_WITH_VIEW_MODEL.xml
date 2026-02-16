@@ -26,7 +26,7 @@
     </edm:ProvidedCHO>
     
     <ore:Aggregation rdf:about="#Aggregation">
-        <edm:aggregatedCHO rdf:resource="#TEST_3D_EMBED_WITH_MODEL"/>
+        <edm:aggregatedCHO rdf:resource="#TEST_3D_EMBED_WITH_VIEW_MODEL"/>
         <edm:dataProvider>Europeana Foundation</edm:dataProvider>
         <edm:provider>Europeana Foundation</edm:provider>
         <edm:isShownAt rdf:resource="https://www.morphosource.org/concern/media/000594298?locale=en"/>
