@@ -12,7 +12,7 @@
     xmlns:svcs="http://rdfs.org/sioc/services#"
     >
 
-    <edm:ProvidedCHO rdf:about="#TEST_3D_EMBED_WITH_MODEL">
+    <edm:ProvidedCHO rdf:about="#TEST_3D_EMBED_WITH_VIEW_MODEL">
         <dc:title xml:lang="en">TEST RECORD: 3D Embedded Object and Model</dc:title>
         <dc:description xml:lang="en">This is a sample record for a 3D object, presented through an embeddable viewer and including a downloadable model referenced in the metadata. The model is further described by its title, description, and temporal coverage, and includes information about its intended use and source.</dc:description>
         <dc:creator xml:lang="en">Europeana Data Services Team</dc:creator>
