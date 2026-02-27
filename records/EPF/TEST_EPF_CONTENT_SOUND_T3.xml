@@ -13,7 +13,7 @@
     xmlns:wgs84="http://www.w3.org/2003/01/geo/wgs84_pos#" 
     >
 
-    <edm:ProvidedCHO rdf:about="#TEST_EPF_CONTENT_SOUND_T3">
+    <edm:ProvidedCHO rdf:about="TEST_EPF_CONTENT_SOUND_T3">
         <dc:title xml:lang="en">TEST RECORD: EPF Content Tier 3 Sound Object</dc:title>
         <dc:description xml:lang="en">This is a sample sound record classified as EPF Content Tier 3.</dc:description>
         <dc:creator xml:lang="en">Europeana Data Services Team</dc:creator>
@@ -28,7 +28,7 @@
     </edm:ProvidedCHO>
 
     <ore:Aggregation rdf:about="#Aggregation">
-        <edm:aggregatedCHO rdf:resource="#TEST_EPF_CONTENT_SOUND_T3"/>
+        <edm:aggregatedCHO rdf:resource="TEST_EPF_CONTENT_SOUND_T3"/>
         <edm:isShownBy rdf:resource="http://www.soundsofchanges.eu/soundfiles/5d5/5d540916d0396.mp3"/>
         <edm:dataProvider>Europeana Foundation</edm:dataProvider>
         <edm:provider>Europeana Foundation</edm:provider>
