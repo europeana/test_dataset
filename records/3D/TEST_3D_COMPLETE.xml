@@ -12,7 +12,7 @@
     xmlns:svcs="http://rdfs.org/sioc/services#"
     >
 
-    <edm:ProvidedCHO rdf:about="#TEST_3D_COMPLETE">
+    <edm:ProvidedCHO rdf:about="TEST_3D_COMPLETE">
         <dc:title xml:lang="en">TEST RECORD: Complete version of a 3D object</dc:title>
         <dc:description xml:lang="en">This is a sample record for a 3D object, presented through 2 complementary embeddable views of the same object. Varios 3D models are made available for download for both views of the object accompained by Paradata. It also contains information about the intended use and source of the model.</dc:description>
         <dc:creator xml:lang="en">Europeana Data Services Team</dc:creator>
@@ -29,18 +29,18 @@
     </edm:ProvidedCHO>
     
     <ore:Aggregation rdf:about="#Aggregation">
-        <edm:aggregatedCHO rdf:resource="#TEST_3D_EMBED_WITH_2X_EMBED_MODEL"/>
+        <edm:aggregatedCHO rdf:resource="TEST_3D_COMPLETE"/>
         <edm:dataProvider>Europeana Foundation</edm:dataProvider>
         <edm:provider>Europeana Foundation</edm:provider>
         <edm:isShownAt rdf:resource="https://slovakiana.sk/kulturne-objekty/cair-ko4ql9i"/>
         <edm:object rdf:resource="https://media.sketchfab.com/models/f6ec40a2d6754a6197c188194781f2c3/thumbnails/5eec7f1df11541fb82312b436681d021/daf45450e4da481ea1d8e2fb55832bf3.jpeg"/>
-        <edm:isShownBy rdf:resource="https://sketchfab.com/oembed?url=https%3A%2F%2Fsketchfab.com%2F3d-models%2Fvelky-kliz-kostol-sv-michala-archanjela-f6ec40a2d6754a6197c188194781f2c3&amp;format=json"/>
-        <edm:hasView rdf:resource="https://sketchfab.com/oembed?url=https%3A%2F%2Fsketchfab.com%2F3d-models%2Fvelky-kliz-interier-kostol-sv-michala-3d5f53ac99e24c9d9c55aefc83ab83af&amp;format=json"/>
+        <edm:isShownBy rdf:resource="https://sketchfab.com/oembed?url=https%3A%2F%2Fsketchfab.com%2F3d-models%2Fvelky-kliz-kostol-sv-michala-archanjela-f6ec40a2d6754a6197c188194781f2c3&amp;format=json#TEST_3D_COMPLETE"/>
+        <edm:hasView rdf:resource="https://sketchfab.com/oembed?url=https%3A%2F%2Fsketchfab.com%2F3d-models%2Fvelky-kliz-interier-kostol-sv-michala-3d5f53ac99e24c9d9c55aefc83ab83af&amp;format=json#TEST_3D_COMPLETE"/>
         <edm:rights rdf:resource="http://creativecommons.org/licenses/by-sa/4.0/"/>
     </ore:Aggregation>
 
     <edm:WebResource
-        rdf:about="https://sketchfab.com/oembed?url=https%3A%2F%2Fsketchfab.com%2F3d-models%2Fvelky-kliz-kostol-sv-michala-archanjela-f6ec40a2d6754a6197c188194781f2c3&amp;format=json">
+        rdf:about="https://sketchfab.com/oembed?url=https%3A%2F%2Fsketchfab.com%2F3d-models%2Fvelky-kliz-kostol-sv-michala-archanjela-f6ec40a2d6754a6197c188194781f2c3&amp;format=json#TEST_3D_COMPLETE">
         <dc:title xml:lang="sk">3D model kostola - exteriér</dc:title>
         <dc:title xml:lang="en">3D model of the church - exterior</dc:title>
         <dcterms:created>2025</dcterms:created>
@@ -53,7 +53,7 @@
         <svcs:has_service rdf:resource="https://sketchfab.com/oembed"/>
     </edm:WebResource>
 
-	<edm:WebResource rdf:about="https://sketchfab.com/oembed?url=https%3A%2F%2Fsketchfab.com%2F3d-models%2Fvelky-kliz-interier-kostol-sv-michala-3d5f53ac99e24c9d9c55aefc83ab83af&amp;format=json">
+	<edm:WebResource rdf:about="https://sketchfab.com/oembed?url=https%3A%2F%2Fsketchfab.com%2F3d-models%2Fvelky-kliz-interier-kostol-sv-michala-3d5f53ac99e24c9d9c55aefc83ab83af&amp;format=json#TEST_3D_COMPLETE">
         <dc:title xml:lang="sk">3D model Kostol - interiér</dc:title>
         <dc:title xml:lang="en">3D model Church - interior</dc:title>
         <dcterms:created>2025</dcterms:created>
