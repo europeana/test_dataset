@@ -12,7 +12,7 @@
     xmlns:svcs="http://rdfs.org/sioc/services#" 
     >
 
-    <edm:ProvidedCHO rdf:about="#TEST_3D_MODEL">
+    <edm:ProvidedCHO rdf:about="TEST_3D_MODEL">
         <dc:title xml:lang="en">TEST RECORD: 3D Model (only)</dc:title>
         <dc:description xml:lang="en">This is a sample record for a 3D object that makes only the 3D model available for download. The model is further described by its title, description, and temporal coverage, and includes information about its intended use and source.</dc:description>
         <dc:creator xml:lang="en">Europeana Data Services Team</dc:creator>
@@ -26,7 +26,7 @@
     </edm:ProvidedCHO>
     
     <ore:Aggregation rdf:about="#Aggregation">
-        <edm:aggregatedCHO rdf:resource="#TEST_3D_MODEL"/>
+        <edm:aggregatedCHO rdf:resource="TEST_3D_MODEL"/>
         <edm:dataProvider>Europeana Foundation</edm:dataProvider>
         <edm:provider>Europeana Foundation</edm:provider>
         <edm:isShownAt rdf:resource="https://www.morphosource.org/concern/media/000594298?locale=en"/>
