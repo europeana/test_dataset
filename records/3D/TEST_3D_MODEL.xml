@@ -31,11 +31,11 @@
         <edm:provider>Europeana Foundation</edm:provider>
         <edm:isShownAt rdf:resource="https://www.morphosource.org/concern/media/000594298?locale=en"/>
         <edm:object rdf:resource="https://www.morphosource.org/downloads/000594299?file=thumbnail"/>
-        <edm:isShownBy rdf:resource="https://raw.githubusercontent.com/IIIF/3d/main/assets/whale/whale_cranium.glb"/>
+        <edm:isShownBy rdf:resource="https://raw.githubusercontent.com/IIIF/3d/main/assets/whale/whale_cranium.glb#TEST_3D_MODEL"/>
         <edm:rights rdf:resource="http://creativecommons.org/licenses/by-sa/4.0/"/>
     </ore:Aggregation>
 
-    <edm:WebResource rdf:about="https://raw.githubusercontent.com/IIIF/3d/main/assets/whale/whale_cranium.glb">
+    <edm:WebResource rdf:about="https://raw.githubusercontent.com/IIIF/3d/main/assets/whale/whale_cranium.glb#TEST_3D_MODEL">
         <dc:title xml:lang="en">3D Model of the object suitable for display</dc:title>
         <dc:creator xml:lang="en">John Doe</dc:creator>
         <dc:description xml:lang="en">The complete cranium and mandibles of Psittacosaurus houi</dc:description>
