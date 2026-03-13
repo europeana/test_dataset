@@ -39,13 +39,13 @@
         <edm:rights rdf:resource="http://creativecommons.org/licenses/by-sa/4.0/"/>
         <svcs:has_service rdf:resource="https://sketchfab.com/oembed"/>
         <edm:intendedUsage rdf:resource="http://data.europeana.eu/vocabulary/usageArea/Research"/>
-        <dcterms:isFormatOf rdf:resource="https://raw.githubusercontent.com/IIIF/3d/main/assets/whale/whale_cranium.glb"/>
-        <dcterms:isFormatOf rdf:resource="https://zenodo.org/records/3464747/files/A09_L_Midfoot.stl"/>
+        <dcterms:isFormatOf rdf:resource="https://raw.githubusercontent.com/IIIF/3d/main/assets/whale/whale_cranium.glb#TEST_3D_EMBED_WITH_2X_MODEL"/>
+        <dcterms:isFormatOf rdf:resource="https://zenodo.org/records/3464747/files/A09_L_Midfoot.stl#TEST_3D_EMBED_WITH_2X_MODEL"/>
         <schema:digitalSourceType rdf:resource="https://cv.iptc.org/newscodes/digitalsourcetype/digitalCapture"/>
         <dcterms:created>2022</dcterms:created>  
     </edm:WebResource>
 
-    <edm:WebResource rdf:about="https://raw.githubusercontent.com/IIIF/3d/main/assets/whale/whale_cranium.glb">
+    <edm:WebResource rdf:about="https://raw.githubusercontent.com/IIIF/3d/main/assets/whale/whale_cranium.glb#TEST_3D_EMBED_WITH_2X_MODEL">
         <dc:title xml:lang="en">3D Model of the object suitable for display</dc:title>
         <dc:creator xml:lang="en">John Doe</dc:creator>
         <dc:description xml:lang="en">The complete cranium and mandibles of Psittacosaurus houi</dc:description>
@@ -58,7 +58,7 @@
         <schema:digitalSourceType rdf:resource="https://cv.iptc.org/newscodes/digitalsourcetype/digitalCapture"/>
      </edm:WebResource>
 
-	<edm:WebResource rdf:about="https://zenodo.org/records/3464747/files/A09_L_Midfoot.stl">
+	<edm:WebResource rdf:about="https://zenodo.org/records/3464747/files/A09_L_Midfoot.stl#TEST_3D_EMBED_WITH_2X_MODEL">
         <dc:title>High resolution 3D Model of the object</dc:title>
         <dc:creator xml:lang="en">John Doe</dc:creator>
         <dc:description xml:lang="en">The complete cranium and mandibles of Psittacosaurus houi; X-Ray Computed Tomography (CT/microCT) using Nikon XTH 320</dc:description>
