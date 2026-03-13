@@ -44,7 +44,7 @@
         <dc:title xml:lang="sk">3D model kostola - exteriér</dc:title>
         <dc:title xml:lang="en">3D model of the church - exterior</dc:title>
         <dcterms:created>2025</dcterms:created>
-        <dcterms:isFormatOf rdf:resource="https://raw.githubusercontent.com/europeana/test_dataset/main/public/models/church_outside_compressed.glb"/>
+        <dcterms:isFormatOf rdf:resource="https://raw.githubusercontent.com/europeana/test_dataset/main/public/models/church_outside_compressed.glb#TEST_3D_EMBED_WITH_2X_EMBED_MODEL"/>
         <edm:rights rdf:resource="http://creativecommons.org/licenses/by-nc-sa/4.0/"/>
 		<edm:intendedUsage rdf:resource="http://data.europeana.eu/vocabulary/usageArea/Documentation"/>
         <schema:digitalSourceType rdf:resource="https://cv.iptc.org/newscodes/digitalsourcetype/digitalCapture"/>
@@ -55,14 +55,14 @@
         <dc:title xml:lang="sk">3D model Kostol - interiér</dc:title>
         <dc:title xml:lang="en">3D model Church - interior</dc:title>
         <dcterms:created>2025</dcterms:created>
-        <dcterms:isFormatOf rdf:resource="https://raw.githubusercontent.com/europeana/test_dataset/main/public/models/church_interior.glb"/>
+        <dcterms:isFormatOf rdf:resource="https://raw.githubusercontent.com/europeana/test_dataset/main/public/models/church_interior.glb#TEST_3D_EMBED_WITH_2X_EMBED_MODEL"/>
         <edm:rights rdf:resource="http://creativecommons.org/licenses/by-nc-sa/4.0/"/>
 		<edm:intendedUsage rdf:resource="http://data.europeana.eu/vocabulary/usageArea/Documentation"/>
         <schema:digitalSourceType rdf:resource="https://cv.iptc.org/newscodes/digitalsourcetype/digitalCapture"/>
         <svcs:has_service rdf:resource="https://sketchfab.com/oembed"/>
     </edm:WebResource>
 
-    <edm:WebResource rdf:about="https://raw.githubusercontent.com/europeana/test_dataset/main/public/models/church_outside_compressed.glb">
+    <edm:WebResource rdf:about="https://raw.githubusercontent.com/europeana/test_dataset/main/public/models/church_outside_compressed.glb#TEST_3D_EMBED_WITH_2X_EMBED_MODEL">
         <dc:title xml:lang="en">3D model of the outside view of the Church (Low resolution, GLB version)</dc:title>
         <dc:description xml:lang="en">The outside view of the Church</dc:description>
         <dcterms:temporal>02-2026</dcterms:temporal>
@@ -74,7 +74,7 @@
         <schema:digitalSourceType rdf:resource="https://cv.iptc.org/newscodes/digitalsourcetype/digitalCapture"/>
      </edm:WebResource>
 
-	<edm:WebResource rdf:about="https://raw.githubusercontent.com/europeana/test_dataset/main/public/models/church_interior.glb">
+	<edm:WebResource rdf:about="https://raw.githubusercontent.com/europeana/test_dataset/main/public/models/church_interior.glb#TEST_3D_EMBED_WITH_2X_EMBED_MODEL">
         <dc:title xml:lang="en">3D model of the inside view of the Church (High resolution, GLB version)</dc:title>
         <dc:description xml:lang="en">The inside view of the Church showing the altar</dc:description>
         <dcterms:temporal>12-2023</dcterms:temporal>
