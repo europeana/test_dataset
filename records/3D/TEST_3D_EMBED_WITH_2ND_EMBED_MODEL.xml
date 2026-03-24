@@ -43,6 +43,7 @@
         rdf:about="https://sketchfab.com/oembed?url=https%3A%2F%2Fsketchfab.com%2F3d-models%2Fvelky-kliz-kostol-sv-michala-archanjela-f6ec40a2d6754a6197c188194781f2c3&amp;format=json#TEST_3D_EMBED_WITH_2ND_EMBED_MODEL">
         <dc:title xml:lang="sk">3D model kostola - exteriér</dc:title>
         <dc:title xml:lang="en">3D model of the church - exterior</dc:title>
+        <edm:type>3D</edm:type>
         <dcterms:created>2025</dcterms:created>
         <dcterms:isFormatOf rdf:resource="https://raw.githubusercontent.com/europeana/test_dataset/main/public/models/church_outside_compressed.glb#TEST_3D_EMBED_WITH_2ND_EMBED_MODEL"/>
         <edm:rights rdf:resource="http://creativecommons.org/licenses/by-nc-sa/4.0/"/>
@@ -54,6 +55,7 @@
 	<edm:WebResource rdf:about="https://sketchfab.com/oembed?url=https%3A%2F%2Fsketchfab.com%2F3d-models%2Fvelky-kliz-interier-kostol-sv-michala-3d5f53ac99e24c9d9c55aefc83ab83af&amp;format=json#TEST_3D_EMBED_WITH_2ND_EMBED_MODEL">
         <dc:title xml:lang="sk">3D model Kostol - interiér</dc:title>
         <dc:title xml:lang="en">3D model Church - interior</dc:title>
+        <edm:type>3D</edm:type>
         <dcterms:created>2025</dcterms:created>
         <dcterms:isFormatOf rdf:resource="https://raw.githubusercontent.com/europeana/test_dataset/main/public/models/church_interior.glb#TEST_3D_EMBED_WITH_2ND_EMBED_MODEL"/>
         <edm:rights rdf:resource="http://creativecommons.org/licenses/by-nc-sa/4.0/"/>
