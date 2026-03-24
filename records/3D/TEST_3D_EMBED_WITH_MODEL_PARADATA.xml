@@ -36,6 +36,7 @@
     </ore:Aggregation>
 
     <edm:WebResource rdf:about="https://sketchfab.com/oembed?url=https%3A%2F%2Fsketchfab.com%2F3d-models%2Fpsittacosaurus-lujiatunensis-586e4c647d174527aae8d35f0ca47381&amp;format=json#TEST_3D_EMBED_WITH_MODEL_PARADATA">
+        <edm:type>3D</edm:type>
         <edm:rights rdf:resource="http://creativecommons.org/licenses/by-sa/4.0/"/>
         <svcs:has_service rdf:resource="https://sketchfab.com/oembed"/>
         <edm:intendedUsage rdf:resource="http://data.europeana.eu/vocabulary/usageArea/Research"/>
@@ -46,9 +47,10 @@
 
     <edm:WebResource rdf:about="https://raw.githubusercontent.com/IIIF/3d/main/assets/whale/whale_cranium.glb#TEST_3D_EMBED_WITH_MODEL_PARADATA">
         <dc:title xml:lang="en">3D Model of the object suitable for display</dc:title>
-        <dc:creator xml:lang="en">John Doe</dc:creator>
         <dc:description xml:lang="en">The complete cranium and mandibles of Psittacosaurus houi</dc:description>
+        <dc:creator xml:lang="en">John Doe</dc:creator>
         <dcterms:temporal>09-2025</dcterms:temporal>
+        <edm:type>3D</edm:type>
         <edm:rights rdf:resource="http://creativecommons.org/licenses/by-sa/4.0/"/>        
         <edm:intendedUsage rdf:resource="http://data.europeana.eu/vocabulary/usageArea/Research"/>
         <dc:type rdf:resource="http://data.europeana.eu/vocabulary/modelType/3DMesh"/>
