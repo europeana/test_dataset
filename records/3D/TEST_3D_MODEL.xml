@@ -37,9 +37,10 @@
 
     <edm:WebResource rdf:about="https://raw.githubusercontent.com/IIIF/3d/main/assets/whale/whale_cranium.glb#TEST_3D_MODEL">
         <dc:title xml:lang="en">3D Model of the object suitable for display</dc:title>
-        <dc:creator xml:lang="en">John Doe</dc:creator>
         <dc:description xml:lang="en">The complete cranium and mandibles of Psittacosaurus houi</dc:description>
+        <dc:creator xml:lang="en">John Doe</dc:creator>
         <dcterms:temporal>09-2025</dcterms:temporal>
+        <edm:type>3D</edm:type>
         <edm:rights rdf:resource="http://creativecommons.org/licenses/by-sa/4.0/"/>        
         <edm:intendedUsage rdf:resource="http://data.europeana.eu/vocabulary/usageArea/Research"/>
         <dc:type rdf:resource="http://data.europeana.eu/vocabulary/modelType/3DMesh"/>
